@@ -11,21 +11,13 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 ## Business Goal
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 ## Methodology
-1. **Data Preprocessing**
-   - Handling missing values by imputing median for numerical columns and 'None' for categorical columns.
-   - Encoding categorical variables using one-hot encoding.
-   - Scaling features using MinMaxScaler.
-   - Splitting the data into training and testing sets.
+1. Data Cleanup and transformation
+2. **Data Preprocessing**
+3. **Model Building**
 
-2. **Model Building**
-   - **Linear Regression**: Built a basic linear regression model with Recursive Feature Elimination (RFE).
-   - **Ridge Regression**: Applied Ridge regression with cross-validation to determine the optimal value of alpha.
-   - **Lasso Regression**: Applied Lasso regression with cross-validation to determine the optimal value of alpha.
-
-3. **Evaluation Metrics**
-   - Evaluated the models using R2 Score, RSS (Residual Sum of Squares), and MSE (Mean Squared Error) on both training and testing sets.
-
-## Results
+4. **Analyse Metrics**
+   
+## Output
 
 ### Linear Regression
 | Metric              | Value                |
